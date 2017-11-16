@@ -1,0 +1,34 @@
+
+x = {"foo":"bar"}
+y = {"john":"doe", "lorem":"ipsum"}
+
+print (len(x))
+print (len(y))
+
+z = y.copy()
+z['john'] = 'mark'
+print (y)
+print (z)
+
+z = y
+z['john'] = 'mark'
+print (y)
+print (z)
+
+
+#output=
+1
+2
+{'john': 'doe', 'lorem': 'ipsum'}
+{'john': 'mark', 'lorem': 'ipsum'}
+{'john': 'mark', 'lorem': 'ipsum'}
+{'john': 'mark', 'lorem': 'ipsum'}
+
+
+=========================================
+
+
+Salah satu operasi pada dict yang dapat dilakukan adalah menghitung panjang dict. Kamu juga dapat mengubah isi elemen dict dengan mengisinya langsung. Dan kamu dapat mencetak isi dict langsung ke konsol tanpa melakukan konversi apapun.
+
+Namun sayangnya untuk mengubah isi elemen, kamu harus meng-copy-nya terlebih dahulu sebelum diubah. Karena bila tidak, elemen di dict induk pun akan ikut berubah.
+

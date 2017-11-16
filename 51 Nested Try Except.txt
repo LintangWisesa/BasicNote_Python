@@ -1,0 +1,29 @@
+
+def test():
+	x = 100 / 0
+
+try:
+
+	try:
+		test()
+	except IndexError, e:
+		print (e)
+
+	x = [1, 2, 3]
+	print (x[4])
+	
+except Exception, e:
+	print (e)
+
+
+
+#output
+integer division or modulo by zero
+
+
+===========================================
+
+
+Nested Try Except
+
+Kamu juga dapat melakukan nested try..except di dalam try..except hal ini dapat dilakukan bila ingin menangani error di dalam kode tertentu. Tentu saja error yang akan ditangani adalah yang paling awal terjadi.

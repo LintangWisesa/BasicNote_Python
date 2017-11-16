@@ -1,0 +1,21 @@
+
+
+a = (1, 2, 3, 4, 5)
+
+# akses per elemen
+print (a[0])
+print (a[1])
+print (a[2])
+print (a[3])
+print (a[4])
+
+# akses menggunakan perulangan for
+for item in a:
+	print (item)
+
+==================================
+
+Setelah membuat tuple kamu dapat melakukan operasi pertama terhadap sebuah tuple yaitu mengakses isinya. Kamu dapat mengaksesnya melalui indeks atau mengakses setiap isi tuple dengan menggunakan for loop.
+
+Kamu juga dapat mengakses sebuah tuple dengan menggunakan built-in function map(), filter(), dan reduce() dengan memanfaatkan lambda function yang dimiliki Python.
+

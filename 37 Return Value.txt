@@ -1,0 +1,16 @@
+
+
+def hello(x, y):
+	result = x + y
+	return result
+
+z = hello(10, 5)
+print(z)
+
+
+#output=15
+
+============================
+
+Function pun dapat mengembalikan suatu nilai setelah melalui suatu proses di dalamnya. Python memiliki keyword return untuk mengembalikan suatu nilai dari dalam function.
+

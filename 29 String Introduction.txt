@@ -1,0 +1,34 @@
+
+
+x = "Ini adalah string"
+y = 'Ini adalah string'
+z = """
+		Ini adalah string panjang yang bisa dienter
+
+		Ini adalah string panjang yang bisa dienter
+
+		Ini adalah string panjang yang bisa dienter
+
+		Ini adalah string panjang yang bisa dienter
+	"""
+
+p = 10
+q = 20
+r = "%d + %d" % (p, q)   # output = 10 + 20
+
+print (x)
+print (y)
+print (z)
+print (r)
+
+
+===============================================
+
+
+String adalah suatu tipe data yang memiliki sederet karakter di dalamnya. Di Python kamu dapat membuat string dengan tiga cara.
+
+mengapitnya menggunakan tanda "
+mengapitnya menggunakan tanda '
+membuat multiline string dengan mengapitnya menggunakan tanda """
+Selain itu kamu juga dapat melakukan string formatting dengan mencetak suatu nilai berdasarkan tipe datanya.
+

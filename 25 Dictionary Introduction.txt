@@ -1,0 +1,25 @@
+
+x = {
+	"foo":1,
+	"bar":999,
+	"lorem":{
+		"ipsum":[20, 30, 40],
+		"sit":"dolor",
+		"amet":{
+			"foo":1,
+			"bar":2
+		}
+	}
+}
+
+print (x)
+print (type(x))
+
+
+=============================
+
+
+Dictionary adalah sebuah tipe data bawaan Python yang dapat menyimpan key-value dengan value dapat berupa tipe data apapun termasuk dictionary itu sendiri. Dictionary dapat digunakan juga untuk merepresentasikan tree, graph, ataupun bahan mentah untuk struktur JSON. Sintaksnya pun tidak berbeda jauh dengan JSON.
+
+Kamu dapat membuat dict dengan menggunakan tanda kurawal dan membuat elemen key-value dengan dipisahkan tanda ":". Kamu pun dapat memeriksa apakah suatu value adalah dict atau bukan dengan menggunakan function type()
+

@@ -1,0 +1,7 @@
+print ("Hello World :D...")
+
+===================================
+
+Python3 merupakan versi terbaru dari Python yang akan menjadi tonggak masa depan untuk para programmer yang terbiasa menggunakan Python. Saat ini Python2 masih dikelola dan dikembangkan namun Python3 terus digalakkan dan dipromosikan karena akan tiba waktunya bahwa Python2 tidak akan didukung lagi pengembangannya.
+
+Python3 lazimnya sama dengan Python2 hanya saja ada beberapa perbedaan sintaks dan standard library yang lebih banyak. Sekarang kita akan mencoba hello world terlebih dahulu di Python3.

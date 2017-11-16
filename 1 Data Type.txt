@@ -1,0 +1,68 @@
+angka1 = 10
+angka2 = 3.14
+angka3 = 1000000000000000000000L
+angka4 = 10+5j
+karakter = 'A'
+kalimat = "Lorem ipsum sit dolor amet"
+is_admin = True
+is_member = False
+daftar_angka = [1, 2, 3]
+daftar_huruf = ('a', 'b', 'c')
+data_orang = {'name':'michael', 'country':'Indonesia', 'phone':'7501234'}
+
+print (angka1)
+print (type(angka1))
+
+print (angka2)
+print (type(angka2))
+
+print (angka3)
+print (type(angka3))
+
+print (angka4)
+print (type(angka4))
+
+print (karakter)
+print (type(karakter))
+
+print (kalimat)
+print (type(kalimat))
+
+print (is_admin)
+print (type(is_admin))
+
+print (is_member)
+print (type(is_member))
+
+print (daftar_angka)
+print (type(daftar_angka))
+
+print (daftar_huruf)
+print (type(daftar_huruf))
+
+print (data_orang)
+print (type(data_orang))
+
+
+=========================================
+
+Python3 memiliki beberapa tipe data built-in atau bawaan yang cukup lengkap dan tidak sulit untuk digunakan. Beberapa tipe data yang wajib kamu ketahui di Python3 antara lain:
+
+int, tipe data yang dapat kamu isi dengan bilangan bulat
+
+float, tipe data yang dapat kamu isi dengan bilangan koma
+
+string, tipe data yang dapat kamu isi dengan sebuah karakter atau kalimat
+
+complex, tipe data yang dapat kamu isi dengan bilangan kompleks
+
+long, tipe data yang dapat kamu isi dengan bilangan yang sangat besar. Bisa lebih dari 1 milyar
+
+boolean, tipe data yang dapat kamu isi untuk mendukung operasi bool. Nilanya hanya True dan False
+
+list, tipe data mirip array yang bisa kamu isi dengan tipe data apapun dan dapat diubah
+
+tuple, tipe data mirip list tapi tidak dapat diubah
+
+dictionary, tipe data key-value yang sangat berguna bila ingin membuat tipe data yang cukup terstruktur
+

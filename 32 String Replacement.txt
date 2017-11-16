@@ -1,0 +1,31 @@
+
+
+x = "     lorem ipsum sit dolor amet   "
+
+print (x.replace(" ", "_"))
+
+print (x.strip(" ").replace(" ", "_"))
+
+print (x.rstrip(" ").replace(" ", "_"))
+
+print (x.lstrip(" ").replace(" ", "_"))
+
+
+#output=
+_____lorem_ipsum_sit_dolor_amet___
+lorem_ipsum_sit_dolor_amet
+_____lorem_ipsum_sit_dolor_amet
+lorem_ipsum_sit_dolor_amet___
+
+
+============================================
+
+Setelah mencari potongan string, ada kalanya kita ingin membersikan potongan string dengan string lain atau malah menghilangkannya.
+
+Kamu dapat menggunakan method berikut untuk menimpa potongan string lain:
+
+replace(), mengganti potongan string dengan potongan string baru
+strip(), menghapus spasi atau potongan string di bagian kiri dan kanan string,
+rstrip(), menghapus spasi atau potongan string di bagian kanan saja
+lstrip(), menghapus spasi atau potongan string di bagian kiri saja
+

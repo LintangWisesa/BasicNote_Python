@@ -1,0 +1,41 @@
+
+x = "lorem ipsum sit dolor amet"
+y = "DONT TOUCH ME 123"
+
+print (x.islower())
+print (x.isupper())
+print (x.istitle())
+print (x.isalnum())
+print (x.isalpha())
+print (x.isdigit())
+print (x.startswith('lorem'))
+print (x.endswith('amet'))
+
+print ("\n")
+
+print (y.islower())
+print (y.isupper())
+print (y.istitle())
+print (y.isalnum())
+print (y.isalpha())
+print (y.isdigit())
+print (y.startswith('lorem'))
+print (y.endswith('123'))
+
+
+========================================
+
+
+Kamu pun dapat memeriksa suatu string apakah suatu angka atau bukan, suatu alfabet atau bukan, atau campuran. Juga besar kecilnya huruf dapat diperiksa.
+
+Beberapa method berikut digunakan untuk memeriksa suatu string berdasarkan huruf atau diawali / diakhiri oleh string tertentu.
+
+islower(), memeriksa apakah semua huruf pada string adalah huruf kecil
+isupper(), memeriksa apakah semua huruf pada string adalah huruf kapital
+istitle(), memeriksa apakah string berada dalam mode title
+isalnum(), memeriksa apakah string mengandung angka dan huruf
+isalfa(), memeriksa apakah string hanya mengandung huruf
+isdigit(), memeriksa apakah string hanya mengandung angka
+startswith(), memeriksa apakah string diawali oleh suatu string
+endswith(), memeriksa apakah string diakhiri oleh suatu string
+

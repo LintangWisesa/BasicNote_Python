@@ -1,0 +1,33 @@
+
+def test():
+	x = 100 / 0
+
+try:
+
+	test()
+
+	x = [1, 2, 3]
+	print (x[4])
+
+except IndexError, e:
+	print (e)
+except Exception, e:
+	print (e)
+finally:
+	print ("Do anything here")
+
+
+
+
+# output
+integer division or modulo by zero
+Do anything here
+
+
+
+=======================================
+
+
+Finally
+
+Ini adalah bagian pamungkas dari exception. Keyword finally akan selalu dieksekusi baik kode error ataupun tidak. Sangat cocok bila ada kode yang melibatkan I/O agar baik error atau tidak tetap ditangani dengan baik.

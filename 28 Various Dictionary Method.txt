@@ -1,0 +1,58 @@
+
+
+x = {"john":"doe", "lorem":"ipsum", "sit":"dolor"}
+y = {"foo":"bar"}
+
+
+print (x.get("lorem"))
+print (x.has_key("john"))
+print (x.has_key("lorem"))
+
+print (x.keys())
+print (x.items())
+
+x.update(y)
+
+print (x)
+
+x.pop('lorem')
+
+print (x)
+
+x.popitem()
+
+print (x)
+
+x.clear()
+y.clear()
+
+print(x)
+print(y)
+
+
+# output =
+ipsum
+True
+True
+['john', 'lorem', 'sit']
+[('john', 'doe'), ('lorem', 'ipsum'), ('sit', 'dolor')]
+{'john': 'doe', 'lorem': 'ipsum', 'foo': 'bar', 'sit': 'dolor'}
+{'john': 'doe', 'foo': 'bar', 'sit': 'dolor'}
+{'foo': 'bar', 'sit': 'dolor'}
+{}
+{}
+
+
+====================================
+
+
+Dict memiliki beberapa method yang dapat digunakan langsung dari variabel yang sudah diisi dict. Beberapa method yang dapat kamu gunakan antara lain:
+
+get, untuk mengambil value dengan key tertentu
+has_key, untuk memeriksa apakah dict mempunyai suatu key
+keys, mengambil key saja
+items, mengambil value saja
+update, menambah isi dict
+pop, membuang salah satu elemen berdasarkan dict
+popitem, membuang salah satu elemen
+clear, mengosongkan dict

@@ -1,0 +1,23 @@
+
+angka = [ 1, 2, 3, 4, 5]
+print(angka)
+
+y = map(lambda x: x + 1, angka)
+print(y)
+
+z = filter(lambda x: x % 2, angka)
+print(z)
+
+
+#output=
+[1, 2, 3, 4, 5]
+[2, 3, 4, 5, 6]
+[1, 3, 5]
+
+
+=======================================
+
+
+Function di Python dapat juga dibuat tanpa harus didefinisikan terlebih dahulu. Function jenis ini memang tidak memerlukan logika yang panjang dan rumit. Function ini disebut dengan lambda function yang biasanya diisi dengan perhitungan matematika sederhana.
+
+Lambda function dapat digunakan bersama method map() dan filter().

@@ -1,0 +1,107 @@
+
+class Vehicle:
+	_wheel = 2
+	_type = ""
+	_merk = ""
+	_owner = ""
+	horsepower = 0
+	passenger = 0
+	color = ""
+
+	def __init__(self, owner="unknown", color="green", merk="unknown", types="Sport Car", wheel=2):
+		self._owner = owner
+		self._color = color
+		self._merk = merk
+		self._type = types
+		self._wheel = wheel
+
+	def get_owner(self):
+		return self._owner
+
+	def start_engine(self):
+		print ("Starting the vehicle... ")
+		print ("owner: %s" % self._owner)
+		print ("color: %s" % self.color)
+		print ("merk: %s" % self._merk)
+		print ("type: %s" % self._type)
+		print ("wheeldrive: %s" % self._wheel)
+
+class Car(Vehicle):
+	door = 0
+
+	def __init__(self):
+		print ("Car is created...")
+	
+	def start_engine(self):
+		print ("Starting the car... ")
+		print ("owner: %s" % self._owner)
+		print ("color: %s" % self.color)
+		print ("merk: %s" % self._merk)
+		print ("type: %s" % self._type)
+		print ("wheeldrive: %s" % self._wheel)
+
+class Motorbike(Vehicle):
+	
+	def __init__(self):
+		print ("Motorbike is created...")
+
+	def start_engine(self):
+		print ("Starting the motorbike... ")
+		print ("owner: %s" % self._owner)
+		print ("color: %s" % self.color)
+		print ("merk: %s" % self._merk)
+		print ("type: %s" % self._type)
+		print ("wheeldrive: %s" % self._wheel)
+
+class Truck(Car):
+	
+	def __init__(self):
+		print ("Truck is created...")
+
+	def start_engine(self):
+		print ("Starting the truck... ")
+		print ("owner: %s" % self._owner)
+		print ("color: %s" % self.color)
+		print ("merk: %s" % self._merk)
+		print ("type: %s" % self._type)
+		print ("wheeldrive: %s" % self._wheel)
+
+motor = Motorbike()
+car = Car()
+truck = Truck()
+
+car.start_engine()
+motor.start_engine()
+truck.start_engine()
+
+
+#output
+Motorbike is created...
+Car is created...
+Truck is created...
+Starting the car... 
+owner: 
+color: 
+merk: 
+type: 
+wheeldrive: 2
+Starting the motorbike... 
+owner: 
+color: 
+merk: 
+type: 
+wheeldrive: 2
+Starting the truck... 
+owner: 
+color: 
+merk: 
+type: 
+wheeldrive: 2
+
+
+=========================================
+
+Inheritance adalah suatu cara agar atribut dan method dari suatu class dapat digunakan di class lain. Selain itu kamu juga dapat melakukan overriding terhadap suatu method dengan mengubah method dari parent dan disesuaikan di class turunan.
+
+Salah satu tujuannya adalah menghemat kode program yang ditulis, yang memiliki atribut dan karakteristik yang sama. Bisa dianggap class adalah struct yang dilengkapi function.
+

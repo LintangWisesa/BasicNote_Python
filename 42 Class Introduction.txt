@@ -1,0 +1,42 @@
+class Car:
+	# atribut yang dimulai dengan underscore merupakan atribut privat
+	_wheeldrive = 4
+	_type = "Sport Car"
+	_merk = "Yamada"
+	_owner = ""
+    
+    # atribut tanpa underscore bersifat public
+	color = "green"
+	
+	def start_engine(self):
+		print ("Starting the car... ")
+		print ("owner: %s" % self._owner)
+		print ("color: %s" % self.color)
+		print ("merk: %s" % self._merk)
+		print ("type: %s" % self._type)
+		print ("wheeldrive: %s" % self._wheeldrive)
+
+# Proses instansiasi object
+car = Car()
+
+# Pemanggilan method
+car.start_engine()
+
+
+
+#output
+Starting the car... 
+owner: 
+color: green
+merk: Yamada
+type: Sport Car
+wheeldrive: 4
+
+
+==============================================
+
+
+Class adalah suatu komposisi kode dimana kamu dapat menyimpan suatu atribut beserta method yang terkait dengan class tersebut. Suatu class dapat diinstansiasi dan akan menjadi objek. Objek dapat diinisialisasi melalui constructor yang dapat menjadi nilai awal suatu objek.
+
+Class dapat memiliki atribut privat dan publik, juga dapat memiliki method privat dan publik. Begitu juga kita dapat menggunakan suatu method tanpa harus membuat objeknya terlebih dahulu dengan mengandalkan static method.
+

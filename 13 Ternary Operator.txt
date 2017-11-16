@@ -1,0 +1,28 @@
+
+total_belanja_1 = 250000
+diskon_1 = True if total_belanja_1 > 200000 else False
+print (diskon_1)
+
+total_belanja_2 = 50000
+diskon_2 = True if total_belanja_2 > 200000 else False
+print (diskon_2)
+
+total_belanja_3 = 100000
+diskon_3 = True if total_belanja_3 > 200000 else False
+print (diskon_3)
+
+
+
+===============================
+
+
+Ada juga sebuah kondisi yang bisa kamu tulis dengan lebih hemat. Hanya saja struktur yang dapat dibuat hanya if dan else saja. Kondisi tersebut dinamakan dengan ternary operator, dimana kamu dapat membuat sebuah kondisi hanya dengan satu baris saja.
+
+Python memiliki ternary operator dengan bentuk berikut:
+
+variabel = <statement 1> if <kondisi> else <statement 2>
+
+misal:
+
+x = 10
+y = 0 if x < 50 else 1 

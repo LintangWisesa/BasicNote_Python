@@ -1,0 +1,27 @@
+
+x = 12.0
+y = 5.0
+
+print (" x == y ", x == y)
+print (" x != y ", x != y)
+print (" x > y ", x > y)
+print (" x >= y ", x >= y)
+print (" x < y ", x < y)
+print (" x <= y ", x <= y)
+
+
+==============================
+
+
+Operator perbandingan biasa digunakan untuk penggunaan pemilihan kondisi dan perulangan. Kamu akan mempelajarinya setelah ini. Operator perbandingan digunakan untuk membandingkan dua buah variabel dan akan menghasilkan True dan False.
+
+Operator perbandingan di Python yang harus kamu ingat antara lain:
+
+==, sama dengan. Karena tanda = digunakan untuk membentuk variabel.
+!=, tidak sama dengan
+>, lebih dari
+<, kurang dari
+>=, lebih dari sama dengan
+<=, kurang dari sama dengan
+
+Bila kamu terbiasa dengan matematika, maka tidak akan terlalu aneh jika kamu menemukan operator diatas.

@@ -1,0 +1,44 @@
+
+class Foo:
+	def __init__(self):
+		print ("Foo class is created...")
+
+	@staticmethod
+	def get_foo_info():
+		print ("Getting foo information...")
+
+	def get_foo_detail(self):
+		print ("Getting foo detail information...")
+
+	def __del__(self):
+		print ("Foo class is deleted...")
+
+# Pemanggilan static method, tanpa instansiasi object
+Foo.get_foo_info()
+# Foo.get_foo_detail()
+
+# Cara biasa dengan instansiasi
+foo = Foo()
+foo.get_foo_detail()
+foo.get_foo_info()
+
+
+
+
+#output
+Getting foo information...
+Foo class is created...
+Getting foo detail information...
+Getting foo information...
+Foo class is deleted...
+
+
+
+
+================================================
+
+
+Adalah suatu cara bagaimana kita dapat menggunakan suatu method di dalam class tanpa harus membuat objeknya terlebih dahulu. Di Python 3 kamu cukup menambahkan decorator @staticmethod untuk menandai bahwa method tersebut adalah static method.
+
+Sekalipun class dibuat objeknya method tersebut tetap dapat digunakan.
+

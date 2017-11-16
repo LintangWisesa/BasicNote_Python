@@ -1,0 +1,34 @@
+
+def hello(x, y, z, *args):
+	print (x)
+	print (y)
+	print (z)
+	print (args)
+
+hello(1, 2, 3, 4)
+hello(1, 2, 3, 4, 5)
+hello(1, 2, 3, 4, 5, 6)
+
+
+# output=
+1
+2
+3
+(4,)
+1
+2
+3
+(4, 5)
+1
+2
+3
+(4, 5, 6)
+
+
+====================================
+
+
+Di Python, bila ada parameter yang tidak sesuai dengan parameter yang dibutuhkan. Dapat ditampung menjadi parameter tambahan yang dikenal dengan args. Parameter selain yang telah ditentukan akan disimpan dalam bentuk list dan dapat diambil di dalam kode suatu function.
+
+Fitur ini memberikan fleksibilitas bagi programmer bila ingin menambahkan parameter diluar ketentuan.
+

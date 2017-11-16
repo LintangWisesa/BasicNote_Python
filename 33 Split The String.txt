@@ -1,0 +1,20 @@
+
+
+x = "lorem ipsum sit amet dolor amet.\nlorem ipsum sit amet dolor amet."
+
+print (x.split(" "))
+print (x.splitlines())
+
+
+#output=
+['lorem', 'ipsum', 'sit', 'amet', 'dolor', 'amet.\nlorem', 'ipsum', 'sit', 'amet', 'dolor', 'amet.']
+['lorem ipsum sit amet dolor amet.', 'lorem ipsum sit amet dolor amet.']
+
+
+=================================================
+
+
+Membelah string kadang dibutuhkan juga untuk melakukan operasi tertentu. Di Python kamu dapat membelah string berdasarkan potongan string tertentu atau tanda baca tertentu, atau juga membelahnya dengan berdasarkan enter atau baris baru suatu string.
+
+split(), membelah string berdasarkan tanda baca atau potongan string tertentu
+splitlines(), membelah string berdasarkan baris baru string

@@ -1,0 +1,34 @@
+
+
+x = "lorem ipsum sit dolor amet"
+y = "DONT TOUCH ME"
+z = "AbAbAbAbAmmmmaBaBaBaB"
+
+print (x.upper())
+print (y.lower())
+print (x.title())
+print (y.capitalize())
+print (z.swapcase())
+
+
+# output =
+LOREM IPSUM SIT DOLOR AMET
+dont touch me
+Lorem Ipsum Sit Dolor Amet
+Dont touch me
+aBaBaBaBaMMMMAbAbAbAb
+
+
+=========================================
+
+
+String memiliki sejumlah method yang cukup banyak dibanding tipe data lain. Oleh karena itu kita akan membaginya kedalam beberapa pembahasan.
+
+Sekarang kita akan mengenal method - method yang digunakan untuk mengubah besar kecilnya suatu huruf. Diantaranya adalah sebagai berikut:
+
+upper(), mengubah semua huruf menjadi huruf kapital
+lower(), mengubah semua huruf menjadi huruf kecil
+title(), mengubah setiap huruf pertama di setiap kata menjadi huruf kapital
+capitalize(), mengubah huruf pertama menjadi huruf kapital
+swapcase(), mengubah huruf kecil menjadi kapital, mengubah huruf kapital menjadi huruf kecil
+

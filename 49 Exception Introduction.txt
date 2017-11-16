@@ -1,0 +1,22 @@
+
+try:
+	x = 100 / 0
+except Exception, e:
+	print (e)
+	
+
+
+
+#output
+integer division or modulo by zero
+
+
+
+=========================================
+
+
+Exception Introduction
+
+Exception adalah suatu cara untuk mengurung suatu baris kode yang bisa menimbulkan masalah namun tidak menghentikan runtime suatu eksekusi program. Misal ketika terjadi pembagian nol biasanya eksekusi program akan langsung dihentikan, namun bila kita mengurungnya dengan exception eksekusi akan dilanjutkan walaupun output-nya error.
+
+Penggunaan exception menggunakan keyword try dan except

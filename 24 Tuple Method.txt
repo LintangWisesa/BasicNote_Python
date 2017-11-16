@@ -1,0 +1,38 @@
+
+
+a = (1, 2, 3, 4, 5, 4, 4, 4)
+
+print(a)
+
+# hitung banyaknya suatu elemen yang mirip
+print(a.count(4))
+
+# melihat indeks
+print(a.index(4))
+print(a.index(3))
+
+# mengubah isi tuple harus diubah ke list dulu
+t = list(a)
+t[0] = 100
+t[1] = 200
+a = tuple(t)
+
+print(a)
+
+
+# output =
+(1, 2, 3, 4, 5, 4, 4, 4)
+4
+3
+2
+(100, 200, 3, 4, 5, 4, 4, 4)
+
+============================================
+
+
+Sejatinya tuple adalah sebuah objek. Objek memiliki sejumlah method yang digunakan untuk memanipulasi objek tersebut begitu objek tersebut diciptakan. Tuple mempunyai sejumlah method yang dapat kamu gunakan untuk melakukan operasi terhadap tuple, diantaranya:
+
+count(), menghitung ada berapa elemen yang sama di dalam list
+index(), mencari index dari list
+Sekarang kita akan mencoba semua method diatas melalui kode di sebelah kanan.
+

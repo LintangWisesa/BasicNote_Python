@@ -1,0 +1,23 @@
+
+x = 12.0
+y = 5.0
+
+print (" x == y ", x == y)
+print (" x != y ", x != y)
+print (" x == y AND x != y ", (x == y and x != y) )
+print (" x == y OR x != y ", (x == y or x != y) )
+print (" NOT (x == y) ", not(x == y) )
+
+
+==================================================
+
+
+Operator logika biasa digunakan dalam pemilihan kondisi seperti while atau for. Penggunaannya biasa digabungkan dengan operator perbandingan yang sudah dibahas sebelumnya. Fungsinya untuk membentuk paduan kondisi yang akan membuat sebuah aturan yang cukup kompleks.
+
+Operator logika di Python yang harus kamu ingat antara lain:
+
+and, artinya dan, dimana kondisi benar jika kedua nilai adalah True
+or, artinya atau, dimana kondisi salah jika kedua nilai adalah False
+not, artinya negatif, dimana nilai variabel akan dibalik menjadi lawannya. Misal True menjadi False.
+
+Bila kamu terbiasa dengan logika matematika, hal ini bukan hal yang sulit.

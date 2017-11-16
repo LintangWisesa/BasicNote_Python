@@ -1,0 +1,31 @@
+
+def hello(x, y, z, *kwargs):
+	print (x)
+	print (y)
+	print (z)
+	print (kwargs)
+
+hello(1, 2, 3, 4)
+hello(1, 2, 3, 4, 5)
+hello(1, 2, 3, 4, 5, 6)
+
+
+# output
+1
+2
+3
+(4,)
+1
+2
+3
+(4, 5)
+1
+2
+3
+(4, 5, 6)
+
+
+==================================
+
+
+Hampir sama kegunaannya dengan args hanya saja kwargs digunakan untuk menerima keyword parameter yang diluar ketentuan. Kamu dapat mengakses kwargs sebagai dictionary.

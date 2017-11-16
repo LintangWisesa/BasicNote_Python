@@ -1,0 +1,47 @@
+
+class Foo:
+	def __init__(self):
+		print ("Foo class is created...")
+
+	def get_foo_info(self):
+		print ("Getting foo information...")
+
+	def __del__(self):
+		print ("Foo class is deleted...")
+
+class Bar:
+	def __init__(self):
+		print ("Bar class is created...")
+
+	def get_bar_info(self):
+		print ("Getting bar information...")
+	
+	def __del__(self):
+		print ("bar class is deleted...")
+
+class Lorem(Foo, Bar):
+	def __init__(self):
+		print ("Lorem is created")
+
+	def __del__(self):
+		print ("Lorem is deleted")
+
+lorem = Lorem()
+lorem.get_foo_info()
+lorem.get_bar_info()
+
+
+
+#output
+Lorem is created
+Getting foo information...
+Getting bar information...
+Lorem is deleted
+
+
+==============================
+
+
+Hampir mirip dengan inheritance, hanya saja class yang digunakan sebagai parent lebih dari satu. Mirip dengan multiple inheritance di C++, Python pun dapat melakukannya. Tentu saja perlu kehati - hatian lebih dalam menulis kode yang menggunakan multiple inheritance.
+
+

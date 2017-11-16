@@ -1,0 +1,26 @@
+
+x = "lorem"
+y = "ipsum"
+z = x + " " + y
+
+print(z)
+print (x * 5)
+print (len(z))
+print (cmp(x, x))
+print (cmp(y, y))
+
+# output =
+lorem ipsum
+loremloremloremloremlorem
+11
+0
+0
+
+================================
+
+Ada beberapa operasi yang dapat dilakukan terhadap string di Python.
+
+Menambah string dengan tanda "+"
+menambah string yang sama dengan tanda "*" sebanyak beberapa kali
+Menghitung panjang string dengan len()
+Membandingkan string dengan cmp()

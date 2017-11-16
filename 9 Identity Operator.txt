@@ -1,0 +1,24 @@
+
+angka1 = 10
+angka2 = 10
+angka3 = "10"
+
+print (angka1 is angka2)
+print (id(angka1) is id(angka2))
+print (angka1 is not angka3)
+print (angka1 is angka3)
+
+
+================================
+
+
+
+Operator identitas adalah cara bagaimana kita mengenali suatu variabel di dalam memori di Python. Kita dapat membandingkan isinya bila isinya identik ataupun lokasi memorinya.
+
+Operatornya cuma ada dua yaitu:
+
+is, untuk memeriksa apakah dua variabel memiliki isi dan tipe data yang sama
+is not, memastikan bahwa dua variabel tidaklah sama baik isi dan tipe datanya
+Lalu ada sebuah function yang digunakan untuk operator ini:
+
+id(), untuk mengetahui lokasi variabel / objek di memori walaupun isi dan tipe datanya sama

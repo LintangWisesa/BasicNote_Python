@@ -1,0 +1,41 @@
+
+x = 12.0
+y = 5.0
+
+result = x + y
+print (" x + y ", result)
+
+result = x - y
+print (" x - y ", result)
+
+result = x * y
+print (" x * y ", result)
+
+result = x / y
+print (" x / y ", result)
+
+result = x % y
+print (" x % y ", result)
+
+result = x ** y
+print (" x ** y ", result)
+
+result = x // y
+print (" x // y ", result)
+
+
+
+====================================
+
+
+Di Python kamu dapat melakukan operasi aritmatika dasar seperti kali, bagi, tambah, kurang. Beberapa operator aritmatika tersebut antara lain:
+
++, penambahan
+*, pengalian
+-, pengurangan
+/, pembagian
+%, modulus
+**, pangkat
+//, pembagian bulat
+
+Jika dua buah variabel berisi angka, maka operator aritmatika dapat diterapkan. Sekarang mari kita coba buat kode yang menggunakan operator aritmatika.

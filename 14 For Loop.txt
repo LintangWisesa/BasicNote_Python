@@ -1,0 +1,12 @@
+
+for i in range(0, 10):
+	print (i)
+
+for i in range(10, 0, -1):
+	print (i)
+
+=============================
+
+Di Python kamu dapat mengulang suatu bagian kode dengan menggunakan pengulangan for. Kamu akan menggunakan built-in function range() sebagai alat bantu untuk melakukan pengulangan dengan for. range() memiliki tiga parameter yaitu nilai awal, nilai akhir, dan penambah nilai untuk setiap iterasinya.
+
+Kamu dapat melakukan pengulangan menaik dengan mengisi nilai yang lebih kecil untuk nilai awal dan nilai lebih tinggi untuk nilai akhir. Bila ingin memberikan penambah nilai di parameter ketiga dapat mengisinya dengan angka positif. Bila ingin melakukan pengulangan menurun dapat mengisi parameter ketiga dengan angka negatif.

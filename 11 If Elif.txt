@@ -1,0 +1,20 @@
+
+nilai = 90
+if nilai > 80:
+	print ("Selamat, kamu dapat nilai A")
+elif nilai > 70 and nilai <=80:
+	print ("Selamat, kamu dapat nilai B")
+elif nilai > 60 and nilai <=70:
+	print ("Selamat, kamu dapat nilai C")
+elif nilai > 45 and nilai <=60:
+	print ("Selamat, kamu dapat nilai D")
+else:
+	print ("Maaf, kamu dapat nilai E. Kamu harus ikut ujian remedial :(")
+
+
+=================================================
+
+
+Sekarang kita akan menggunakan if dan elif di Python. Untuk membangun sebuah kondisi yang lebih panjang dan kompleks gunakanlah elif. Jadi kamu dapat menambahkan beberapa kondisi jika kondisi ada banyak.
+
+Mungkin elif adalah singkatan dari else if. Tapi kamu dapat mengakhiri sebuah kondisi dengan else atau tidak diakhiri oleh else.

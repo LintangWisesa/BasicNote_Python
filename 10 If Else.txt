@@ -1,0 +1,14 @@
+
+nilai = 90
+if nilai > 75:
+	print ("Selamat, kamu lulus SKBM!")
+else:
+	print ("Maaf, kamu harus ikut ujian remedial :(")
+
+
+==========================================
+
+
+Sekarang kita akan menggunakan if dan else. Untuk membangun sebuah kondisi kita akan menggunakan keduanya atau if saja. Statement if memerlukan sebuah kondisi yang dibangun dengan menggunakan operator logika dan operator relasional. Sedangkan else akan menerima kondisi yang tidak sesuai dengan kondisi di dalam if atau sebelumnya.
+
+Di Python, untuk membentuk if tidak menggunakan kurawal seperti pada Java atau PHP. Tapi menggunakan titik dua, dan baris yang akan diproses setelah kondisi harus berada satu tab dibawahnya. Kamu pun dapat membuat kondisi tanpa harus dikurung oleh tanda "(" dan ")". Tapi untuk mempermudah pembacaan, lebih baik apabila kondisi yang kamu tulis dikurung saja.

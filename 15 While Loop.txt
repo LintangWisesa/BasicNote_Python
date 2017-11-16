@@ -1,0 +1,12 @@
+
+
+i = 0
+while i < 10:
+	print (i)
+	i += 1
+
+===========================
+
+Di Python kamu dapat melakukan pengulangan while. Pengulangan tersebut memerlukan sebuah kondisi yang dapat kamu tentukan dengan kebutuhan kamu. Dan tentu saja akan berhenti setelah memenuhi suatu kondisi. Pengulangan while pun dapat kamu atur agar terus berjalan sampai diberhentikan secara sengaja oleh kita melalui Ctrl + C ataupun dengan menutup kode program.
+
+Pengulangan while di Python hampir sama dengan bahasa pemrograman lain seperti PHP dan Java, hanya saja tidak memiliki tanda kurawal untuk mengurung blok kode yang berada di dalam while tersebut.

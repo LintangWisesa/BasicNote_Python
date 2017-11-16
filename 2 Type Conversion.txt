@@ -1,0 +1,38 @@
+
+angka = 250
+
+var1 = str(angka)
+var2 = float(angka)
+var3 = complex(angka)
+var4 = hex(angka)
+var5 = oct(angka)
+
+print var1    // 250
+print var2    // 250.0
+print var3    // (250+0j)
+print var4    // 0xfa
+print var5    // 0372
+
+
+
+=============================
+
+
+Setelah mengenal beberapa tipe data dasar di Python, kini saatnya kamu menguasai konversi tipe di Python. Suatu tipe data dapat dikonversi lagi ke tipe data lain dengan menggunakan beberapa function berikut:
+
+chr(), mengubah angka ke karakter
+
+unichr(), mengubah angka ke karakter unicode
+
+str(), mengubah angka ke string
+
+complex(), mengubah angka ke bilangan kompleks
+
+float(), mengubah angka ke bilangan koma
+
+hex(), mengubah angka ke bentuk heksadesimal
+
+oct(), mengubah angka ke bentuk octal
+
+int(), mengubah tipe data lain ke angka
+

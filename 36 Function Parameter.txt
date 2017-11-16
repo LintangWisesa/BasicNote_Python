@@ -1,0 +1,25 @@
+
+def hello(x, y):
+	print ("Hello world (%s, %s)" % (x, y))
+
+for i in range(0, 10):
+	hello(i, i**i)
+
+#output=
+Hello world (0, 1)
+Hello world (1, 1)
+Hello world (2, 4)
+Hello world (3, 27)
+Hello world (4, 256)
+Hello world (5, 3125)
+Hello world (6, 46656)
+Hello world (7, 823543)
+Hello world (8, 16777216)
+Hello world (9, 387420489)
+
+==============================
+
+Function dapat menerima suatu parameter sesuai kebutuhan. Parameter tersebut dapat digunakan oleh kode yang berada di dalam suatu function.
+
+Di Python ada parameter yang disebut dengan argument ada juga yang disebut dengan keyword argument. Keyword argument adalah parameter yang dapat diisi dengan default value.
+

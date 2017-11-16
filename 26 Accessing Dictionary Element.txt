@@ -1,0 +1,53 @@
+
+x = {
+	"foo":1,
+	"bar":999,
+	"lorem":{
+		"ipsum":[20, 30, 40],
+		"sit":"dolor",
+		"amet":{
+			"foo":1,
+			"bar":2
+		}
+	}
+}
+
+print (x['foo'])
+print (x['bar'])
+print (x['lorem'])
+print (x['lorem']['ipsum'])
+print (x['lorem']['amet'])
+print (x['lorem']['amet']['foo'])
+
+for key in x:
+	print (key)
+
+for key in x:
+	print (x[key])
+
+
+
+#output =
+1
+999
+{'ipsum': [20, 30, 40], 'amet': {'foo': 1, 'bar': 2}, 'sit': 'dolor'}
+[20, 30, 40]
+{'foo': 1, 'bar': 2}
+1
+lorem
+foo
+bar
+{'ipsum': [20, 30, 40], 'amet': {'foo': 1, 'bar': 2}, 'sit': 'dolor'}
+1
+999
+
+====================================
+
+
+Untuk mengakses elemen dictionary, kamu dapat menggunakan tanda "[" dan "]" dengan melewatkan nama key yang akan diakses. Bila terdapat dictionary yang menjadi elemennya, kamu dapat mengakses lagi key tersebut setelah key pertama.
+
+Sedangkan bila kamu melakukan looping terhadap dictionary, kamu hanya akan mendapatkan key-nya saja yang dapat digunakan untuk mengakses setiap elemen dictionary.
+
+
+
+

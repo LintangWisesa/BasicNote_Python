@@ -1,0 +1,24 @@
+
+try:
+	x = [1, 2, 3]
+	print (x[4])
+except IndexError, e:
+	print (e)
+except Exception, e:
+	print (e)
+
+
+
+#output
+list index out of range
+
+
+
+==============================
+
+
+Multiple Exception Handling
+
+Dalam menangkap exception kita bisa saja menangkapnya secara global, hanya saja akan lebih enak bila kita dapat menangkap error tertentu dan menampilkan penanganan error yang sesuai atau melakukan suatu operasi.
+
+Misal dalam kode di sebelah kanan kita akan menangkap error IndexError, sedangkan bila kita menghapus komentar pada kode di sebelah kanan akan ditangani oleh except dibawahnya.

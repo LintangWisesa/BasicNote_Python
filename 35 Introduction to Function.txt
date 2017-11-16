@@ -1,0 +1,15 @@
+
+def hello():
+	print ("Hello world")
+
+hello()
+
+
+===========================
+
+
+Di Python function dibuat dengan menggunakan keyword def diikuti dengan nama function yang diinginkan. Sebuah function dapat menerima parameter ataupun tidak.
+
+Karena Python tidak menggunakan tanda kurawal untuk blok kode yang ada di dalam function. Kamu akan menggunakan indentasi untuk menentukan baris kode yang menjadi bagian dari function tersebut.
+
+Untuk memanggil function kamu cukup memanggil nama function-nya saja di luar blok kode function. Bila memanggil suatu function di dalam function itu sendiri maka akan menjadi rekursif.

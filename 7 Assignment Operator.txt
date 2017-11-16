@@ -1,0 +1,57 @@
+
+x = 12.0
+x += 8
+print (" x += 8 ",  x)
+
+x = 12.0
+x -= 8
+print (" x -= 8 ",  x)
+
+x = 12.0
+x *= 8
+print (" x *= 8 ",  x)
+
+x = 12.0
+x /= 8
+print (" x /= 8 ",  x)
+
+x = 12.0
+x //= 8
+print (" x //= 8 ",  x)
+
+x = 12.0
+x %= 8
+print (" x %= 8 ",  x)
+
+x = 4
+x **= 3
+print (" x **= 3 ",  x)
+
+
+
+===============================
+
+
+Operator assignment digunakan untuk menangani operasi seperti berikut:
+
+x = x + 1;
+y = y - 1;
+
+// atau
+
+x = 1;
+y = x;
+x = y + 1;
+Dimana kamu ingin melakukan sesuatu terhadap suatu variabel tanpa harus membuat variabel baru sebagai variabel bantu. Hal ini tidak hanya digunakan untuk menghemat baris kode, digunakan juga membuat kode lebih elok.
+
+Operator assignment di Python yang harus kamu ingat antara lain:
+
++=, melakukan operasi penambahan terhadap variabel itu sendiri
+-=, melakukan operasi pengurangan terhadap variabel itu sendiri
+*=, melakukan operasi perkalian terhadap variabel itu sendiri
+/=, melakukan operasi pembagian terhadap variabel itu sendiri
+%=, melakukan operasi modulus terhadap variabel itu sendiri
+**=, melakukan operasi pangkat terhadap variabel itu sendiri
+//=, melakukan operasi pembagian bulat terhadap variabel itu sendiri
+
+

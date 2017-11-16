@@ -1,0 +1,31 @@
+
+a = (1, 2, 3, 4, 5)
+
+x = a + a
+y = a * 10
+z = tuple(map(lambda x: x + 1, a))
+i = tuple(filter(lambda x: x % 2, a))
+
+print(x)
+print(y)
+print(z)
+print(i)
+
+# built-in function di python untuk operasi list
+jumlah = sum(a)
+print (jumlah)
+
+terbesar = max(a)
+print (terbesar)
+
+terkecil = min(a)
+print (terkecil)
+
+
+==========================================
+
+
+Sebuah isi tuple dapat ditambah dengan tuple lain bahkan kamu juga dapat melipatgandakan isi tuple hanya dengan menggunakan tanda asterisk ( * ). Kamu pun dapat menggunakan map() dan filter() dengan memadukannya bersama lambda function untuk memanipulasi isi tuple dengan cara yang lebih ringkas.
+
+Kamu pun dapat mencoba menggunakan built-in function seperti sum(), max(), dan min() terhadap suatu tuple hanya saja semua isi tuple harus berupa angka.
+
